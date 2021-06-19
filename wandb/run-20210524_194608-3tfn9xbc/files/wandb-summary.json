@@ -1,0 +1,1 @@
+{"loss_train": 0.00032841799482000324, "loss_test": 0.0010626903666499338, "epoch": 3, "inputs": {"_type": "image-file", "path": "media/images/inputs_3_b2172ac9.png", "sha256": "b2172ac9664aa9145f9e3d87437d850737ea4941afdbd6338415ee0a5a955a5e", "size": 35707, "format": "png", "width": 227, "height": 227}, "_runtime": 3634, "_timestamp": 1621882002, "_step": 3}

@@ -1,0 +1,34 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2021-05-23T12:27:28.529334",
+    "startedAt": "2021-05-23T12:27:26.837785",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9020",
+        "--control=9018",
+        "--hb=9017",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"11ba592b-c8ab-4712-8826-7f7705311bdd\"",
+        "--shell=9019",
+        "--transport=\"tcp\"",
+        "--iopub=9021",
+        "--f=C:\\Users\\cdami\\AppData\\Local\\Temp\\tmp-21952TuuIW6wXNWbE.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/damiankucharski/Spatiotemporal-Autoencoder-Anomaly-Detection.git",
+        "commit": "64819921c056f35e934183bb812356c7679b97b4"
+    },
+    "email": "c.damiankucharski@gmail.com",
+    "root": "C:/Users/cdami/Documents/Python Scripts/Spatiotemporal-Autoencoder-Anomaly-Detection",
+    "host": "LAPTOP-1SKKBU1Q",
+    "username": "cdami",
+    "executable": "C:\\Users\\cdami\\Anaconda3\\python.exe"
+}

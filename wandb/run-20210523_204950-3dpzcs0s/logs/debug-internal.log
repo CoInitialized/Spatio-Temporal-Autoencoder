@@ -1,0 +1,306 @@
+2021-05-23 20:49:55,630 INFO    MainThread:29512 [internal.py:wandb_internal():88] W&B internal server running at pid: 29512, started at: 2021-05-23 20:49:55.623040
+2021-05-23 20:49:55,633 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: check_version
+2021-05-23 20:49:55,633 INFO    WriterThread:29512 [datastore.py:open_for_write():77] open: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\run-3dpzcs0s.wandb
+2021-05-23 20:49:55,640 DEBUG   SenderThread:29512 [sender.py:send():176] send: header
+2021-05-23 20:49:55,640 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: check_version
+2021-05-23 20:49:55,805 DEBUG   SenderThread:29512 [sender.py:send():176] send: run
+2021-05-23 20:49:56,157 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: run_start
+2021-05-23 20:49:56,157 INFO    SenderThread:29512 [dir_watcher.py:__init__():168] watching files in: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files
+2021-05-23 20:49:56,157 INFO    SenderThread:29512 [sender.py:_start_run_threads():696] run started: 3dpzcs0s with start time 1621795794
+2021-05-23 20:49:56,157 DEBUG   SenderThread:29512 [sender.py:send():176] send: summary
+2021-05-23 20:49:56,158 INFO    SenderThread:29512 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-23 20:49:56,175 DEBUG   HandlerThread:29512 [meta.py:__init__():39] meta init
+2021-05-23 20:49:56,175 DEBUG   HandlerThread:29512 [meta.py:__init__():53] meta init done
+2021-05-23 20:49:56,175 DEBUG   HandlerThread:29512 [meta.py:probe():210] probe
+2021-05-23 20:49:56,197 DEBUG   HandlerThread:29512 [meta.py:_setup_git():200] setup git
+2021-05-23 20:49:56,274 DEBUG   HandlerThread:29512 [meta.py:_setup_git():207] setup git done
+2021-05-23 20:49:56,274 DEBUG   HandlerThread:29512 [meta.py:_save_pip():57] save pip
+2021-05-23 20:49:56,275 DEBUG   HandlerThread:29512 [meta.py:_save_pip():71] save pip done
+2021-05-23 20:49:56,275 DEBUG   HandlerThread:29512 [meta.py:_save_conda():78] save conda
+2021-05-23 20:49:57,162 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\conda-environment.yaml
+2021-05-23 20:49:57,163 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-summary.json
+2021-05-23 20:49:57,163 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\requirements.txt
+2021-05-23 20:50:02,209 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\output.log
+2021-05-23 20:50:07,215 DEBUG   HandlerThread:29512 [meta.py:_save_conda():86] save conda done
+2021-05-23 20:50:07,215 DEBUG   HandlerThread:29512 [meta.py:probe():252] probe done
+2021-05-23 20:50:07,249 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\conda-environment.yaml
+2021-05-23 20:50:07,250 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-metadata.json
+2021-05-23 20:50:07,404 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:50:07,404 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:50:07,661 DEBUG   SenderThread:29512 [sender.py:send():176] send: files
+2021-05-23 20:50:07,661 INFO    SenderThread:29512 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-23 20:50:08,340 INFO    Thread-17 :29512 [upload_job.py:push():133] Uploaded file C:\Users\cdami\AppData\Local\Temp\tmpr2w88pddwandb\3ehfie44-wandb-metadata.json
+2021-05-23 20:50:22,688 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:50:22,690 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:50:27,817 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:50:37,973 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:50:37,973 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:50:53,224 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:50:53,225 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:51:01,461 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:51:08,474 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:51:08,474 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:51:23,723 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:51:23,723 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:51:35,095 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:51:39,005 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:51:39,006 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:51:54,255 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:51:54,256 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:52:08,796 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:52:09,497 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:52:09,497 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:52:24,785 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:52:24,785 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:52:40,045 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:52:40,045 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:52:42,470 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:52:55,286 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:52:55,286 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:53:10,537 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:53:10,537 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:53:16,134 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:53:25,778 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:53:25,778 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:53:41,022 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:53:41,023 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:53:49,842 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:53:56,334 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:53:56,335 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:54:11,600 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:54:11,600 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:54:23,559 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:54:26,867 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:54:26,867 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:54:42,117 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:54:42,117 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:54:57,216 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:54:57,375 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:54:57,375 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:55:12,621 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:55:12,622 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:55:27,911 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:55:27,912 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:55:32,595 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:55:43,189 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:55:43,189 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:55:58,444 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:55:58,444 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:56:06,262 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:56:13,708 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:56:13,708 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:56:28,957 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:56:28,957 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:56:39,956 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:56:44,199 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:56:44,199 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:56:59,452 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:56:59,452 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:57:13,719 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:57:14,743 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:57:14,744 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:57:30,400 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:57:30,403 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:57:45,653 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:57:45,653 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:57:47,660 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:58:00,913 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:58:00,913 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:58:16,186 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:58:16,186 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:58:21,313 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:58:31,441 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:58:31,441 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:58:46,683 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:58:46,684 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:58:54,892 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:59:01,960 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:59:01,960 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:59:17,219 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:59:17,220 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:59:28,639 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 20:59:32,524 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:59:32,524 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 20:59:47,765 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 20:59:47,765 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:00:02,155 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:00:03,009 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:00:03,009 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:00:18,280 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:00:18,280 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:00:33,540 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:00:33,540 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:00:35,696 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:00:48,801 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:00:48,803 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:01:04,055 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:01:04,056 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:01:09,268 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:01:19,320 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:01:19,320 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:01:34,584 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:01:34,584 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:01:42,789 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:01:49,814 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:01:49,814 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:02:05,110 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:02:05,110 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:02:16,303 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:02:20,442 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:02:20,443 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:02:35,721 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:02:35,722 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:02:49,830 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:02:50,970 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:02:50,971 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:03:06,287 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:03:06,288 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:03:21,592 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:03:21,592 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:03:23,458 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:03:36,849 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:03:36,849 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:03:52,097 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:03:52,097 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:03:57,045 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:04:07,397 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:04:07,398 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:04:22,712 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:04:22,712 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:04:30,554 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:04:37,969 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:04:37,969 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:04:38,215 DEBUG   SenderThread:29512 [sender.py:send():176] send: files
+2021-05-23 21:04:38,217 INFO    SenderThread:29512 [sender.py:_save_file():821] saving file media\images\inputs_0_25f10573.png with policy now
+2021-05-23 21:04:38,224 DEBUG   SenderThread:29512 [sender.py:send():176] send: history
+2021-05-23 21:04:38,227 DEBUG   SenderThread:29512 [sender.py:send():176] send: summary
+2021-05-23 21:04:38,230 INFO    SenderThread:29512 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-23 21:04:38,421 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-summary.json
+2021-05-23 21:04:38,422 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\media\images\inputs_0_25f10573.png
+2021-05-23 21:04:38,422 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\media\images
+2021-05-23 21:04:38,423 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\media
+2021-05-23 21:04:38,988 INFO    Thread-18 :29512 [upload_job.py:push():133] Uploaded file C:\Users\cdami\AppData\Local\Temp\tmpr2w88pddwandb\3e8u11ir-media/images/inputs_0_25f10573.png
+2021-05-23 21:04:53,219 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:04:53,220 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:05:03,926 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:05:08,453 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:05:08,454 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:05:23,719 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:05:23,719 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:05:37,277 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:05:38,959 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:05:38,960 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:05:54,203 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:05:54,204 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:06:09,500 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:06:09,501 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:06:10,637 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:06:24,774 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:06:24,774 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:06:40,005 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 21:06:40,006 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 21:06:44,048 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:06:45,074 DEBUG   SenderThread:29512 [sender.py:send():176] send: telemetry
+2021-05-23 21:06:45,076 DEBUG   SenderThread:29512 [sender.py:send():176] send: exit
+2021-05-23 21:06:45,085 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:45,077 INFO    SenderThread:29512 [sender.py:send_exit():281] handling exit code: 0
+2021-05-23 21:06:45,086 INFO    SenderThread:29512 [sender.py:send_exit():289] send defer
+2021-05-23 21:06:45,087 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:45,089 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:45,090 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-23 21:06:45,090 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:45,090 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-23 21:06:45,090 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 1
+2021-05-23 21:06:45,091 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:45,091 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-23 21:06:45,180 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:45,181 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-23 21:06:45,181 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 2
+2021-05-23 21:06:45,182 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:45,183 DEBUG   SenderThread:29512 [sender.py:send():176] send: stats
+2021-05-23 21:06:45,183 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-23 21:06:45,184 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:45,185 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-23 21:06:45,185 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 3
+2021-05-23 21:06:45,185 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:45,185 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-23 21:06:45,185 DEBUG   SenderThread:29512 [sender.py:send():176] send: summary
+2021-05-23 21:06:45,187 INFO    SenderThread:29512 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-23 21:06:45,187 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:45,187 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-23 21:06:45,187 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 4
+2021-05-23 21:06:45,188 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:45,188 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-23 21:06:45,188 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:45,188 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-23 21:06:45,196 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:45,618 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\output.log
+2021-05-23 21:06:45,618 INFO    Thread-12 :29512 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-summary.json
+2021-05-23 21:06:45,696 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 5
+2021-05-23 21:06:45,697 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:45,697 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:45,697 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-23 21:06:45,698 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:45,698 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-23 21:06:45,698 INFO    SenderThread:29512 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-23 21:06:45,803 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:46,628 INFO    SenderThread:29512 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\config.yaml
+2021-05-23 21:06:46,629 INFO    SenderThread:29512 [dir_watcher.py:finish():312] scan: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files
+2021-05-23 21:06:46,629 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\conda-environment.yaml conda-environment.yaml
+2021-05-23 21:06:46,629 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\config.yaml config.yaml
+2021-05-23 21:06:46,632 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\output.log output.log
+2021-05-23 21:06:46,636 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\requirements.txt requirements.txt
+2021-05-23 21:06:46,638 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-metadata.json wandb-metadata.json
+2021-05-23 21:06:46,638 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-summary.json wandb-summary.json
+2021-05-23 21:06:46,645 INFO    SenderThread:29512 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\media\images\inputs_0_25f10573.png media\images\inputs_0_25f10573.png
+2021-05-23 21:06:46,650 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 6
+2021-05-23 21:06:46,650 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:46,652 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:46,652 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-23 21:06:46,653 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:46,653 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-23 21:06:46,653 INFO    SenderThread:29512 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-23 21:06:46,653 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 7
+2021-05-23 21:06:46,654 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:46,654 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-23 21:06:46,654 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:46,654 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-23 21:06:46,766 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:47,018 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 8
+2021-05-23 21:06:47,019 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:47,019 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:47,020 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-23 21:06:47,020 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:47,020 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-23 21:06:47,020 INFO    SenderThread:29512 [sender.py:send_request_defer():336] send defer: 9
+2021-05-23 21:06:47,021 DEBUG   SenderThread:29512 [sender.py:send():176] send: final
+2021-05-23 21:06:47,021 DEBUG   SenderThread:29512 [sender.py:send():176] send: footer
+2021-05-23 21:06:47,021 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: defer
+2021-05-23 21:06:47,021 INFO    HandlerThread:29512 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-23 21:06:47,021 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: defer
+2021-05-23 21:06:47,022 INFO    SenderThread:29512 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-23 21:06:47,123 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:47,123 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:47,231 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:47,232 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:47,280 INFO    Thread-23 :29512 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\wandb-summary.json
+2021-05-23 21:06:47,293 INFO    Thread-22 :29512 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\requirements.txt
+2021-05-23 21:06:47,305 INFO    Thread-20 :29512 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\config.yaml
+2021-05-23 21:06:47,306 INFO    Thread-19 :29512 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\conda-environment.yaml
+2021-05-23 21:06:47,314 INFO    Thread-21 :29512 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\files\output.log
+2021-05-23 21:06:47,339 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:47,340 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:47,446 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:47,446 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:47,555 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-23 21:06:47,555 DEBUG   SenderThread:29512 [sender.py:send_request():186] send_request: poll_exit
+2021-05-23 21:06:47,556 INFO    SenderThread:29512 [file_pusher.py:join():181] waiting for file pusher
+2021-05-23 21:06:47,558 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-23 21:06:47,560 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-23 21:06:47,562 DEBUG   HandlerThread:29512 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-23 21:06:47,562 INFO    HandlerThread:29512 [handler.py:finish():632] shutting down handler
+2021-05-23 21:06:48,023 INFO    WriterThread:29512 [datastore.py:close():258] close: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_204950-3dpzcs0s\run-3dpzcs0s.wandb
+2021-05-23 21:06:48,571 INFO    SenderThread:29512 [sender.py:finish():925] shutting down sender
+2021-05-23 21:06:48,571 INFO    SenderThread:29512 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-23 21:06:48,571 INFO    SenderThread:29512 [file_pusher.py:join():181] waiting for file pusher
+2021-05-23 21:06:48,577 INFO    MainThread:29512 [internal.py:handle_exit():78] Internal process exited

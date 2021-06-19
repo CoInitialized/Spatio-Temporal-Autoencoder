@@ -1,0 +1,96 @@
+2021-05-23 13:32:12,351 INFO    MainThread:33664 [internal.py:wandb_internal():88] W&B internal server running at pid: 33664, started at: 2021-05-23 13:32:12.342749
+2021-05-23 13:32:12,354 INFO    WriterThread:33664 [datastore.py:open_for_write():77] open: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\run-uqn6gfk8.wandb
+2021-05-23 13:32:12,354 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: check_version
+2021-05-23 13:32:12,360 DEBUG   SenderThread:33664 [sender.py:send():176] send: header
+2021-05-23 13:32:12,360 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: check_version
+2021-05-23 13:32:12,554 DEBUG   SenderThread:33664 [sender.py:send():176] send: run
+2021-05-23 13:32:12,917 INFO    SenderThread:33664 [dir_watcher.py:__init__():168] watching files in: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files
+2021-05-23 13:32:12,918 INFO    SenderThread:33664 [sender.py:_start_run_threads():696] run started: uqn6gfk8 with start time 1621769531
+2021-05-23 13:32:12,918 DEBUG   SenderThread:33664 [sender.py:send():176] send: summary
+2021-05-23 13:32:12,918 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: run_start
+2021-05-23 13:32:12,919 INFO    SenderThread:33664 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-23 13:32:12,933 DEBUG   HandlerThread:33664 [meta.py:__init__():39] meta init
+2021-05-23 13:32:12,933 DEBUG   HandlerThread:33664 [meta.py:__init__():53] meta init done
+2021-05-23 13:32:12,933 DEBUG   HandlerThread:33664 [meta.py:probe():210] probe
+2021-05-23 13:32:12,941 DEBUG   HandlerThread:33664 [meta.py:_setup_git():200] setup git
+2021-05-23 13:32:13,042 DEBUG   HandlerThread:33664 [meta.py:_setup_git():207] setup git done
+2021-05-23 13:32:13,042 DEBUG   HandlerThread:33664 [meta.py:_save_pip():57] save pip
+2021-05-23 13:32:13,043 DEBUG   HandlerThread:33664 [meta.py:_save_pip():71] save pip done
+2021-05-23 13:32:13,043 DEBUG   HandlerThread:33664 [meta.py:_save_conda():78] save conda
+2021-05-23 13:32:13,929 INFO    Thread-12 :33664 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\requirements.txt
+2021-05-23 13:32:13,929 INFO    Thread-12 :33664 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\wandb-summary.json
+2021-05-23 13:32:13,930 INFO    Thread-12 :33664 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\conda-environment.yaml
+2021-05-23 13:32:17,960 INFO    Thread-12 :33664 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\output.log
+2021-05-23 13:32:21,815 DEBUG   HandlerThread:33664 [meta.py:_save_conda():86] save conda done
+2021-05-23 13:32:21,815 DEBUG   HandlerThread:33664 [meta.py:probe():252] probe done
+2021-05-23 13:32:21,974 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 13:32:21,975 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 13:32:21,977 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:21,978 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:21,984 INFO    Thread-12 :33664 [dir_watcher.py:_on_file_modified():229] file/dir modified: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\conda-environment.yaml
+2021-05-23 13:32:21,984 INFO    Thread-12 :33664 [dir_watcher.py:_on_file_created():216] file/dir created: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\wandb-metadata.json
+2021-05-23 13:32:22,116 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: resume
+2021-05-23 13:32:22,116 INFO    HandlerThread:33664 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-23 13:32:22,117 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:22,117 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:22,196 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: resume
+2021-05-23 13:32:22,197 INFO    HandlerThread:33664 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-23 13:32:22,197 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:22,197 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:22,285 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: resume
+2021-05-23 13:32:22,285 INFO    HandlerThread:33664 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-23 13:32:22,285 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:22,285 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:22,371 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: resume
+2021-05-23 13:32:22,371 INFO    HandlerThread:33664 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-23 13:32:22,371 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:22,371 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:22,458 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: resume
+2021-05-23 13:32:22,458 INFO    HandlerThread:33664 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-23 13:32:22,459 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:22,459 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:22,544 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: resume
+2021-05-23 13:32:22,544 INFO    HandlerThread:33664 [handler.py:handle_request_resume():514] starting system metrics thread
+2021-05-23 13:32:22,545 DEBUG   SenderThread:33664 [sender.py:send():176] send: files
+2021-05-23 13:32:22,545 INFO    SenderThread:33664 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-23 13:32:22,548 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:22,548 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:22,550 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:22,550 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:22,551 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:22,552 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:23,196 INFO    Thread-23 :33664 [upload_job.py:push():133] Uploaded file C:\Users\cdami\AppData\Local\Temp\tmpf9njubmdwandb\npna7mg3-wandb-metadata.json
+2021-05-23 13:32:37,231 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 13:32:37,231 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 13:32:52,544 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 13:32:52,546 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 13:32:53,726 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:32:53,891 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: pause
+2021-05-23 13:32:53,892 INFO    HandlerThread:33664 [handler.py:handle_request_pause():519] stopping system metrics thread
+2021-05-23 13:32:53,990 DEBUG   SenderThread:33664 [sender.py:send():176] send: stats
+2021-05-23 13:33:07,972 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 13:33:07,972 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 13:33:23,200 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 13:33:23,200 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 13:33:38,449 DEBUG   HandlerThread:33664 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-23 13:33:38,450 DEBUG   SenderThread:33664 [sender.py:send_request():186] send_request: stop_status
+2021-05-23 13:33:58,146 WARNING MainThread:33664 [internal.py:is_dead():366] Internal process exiting, parent pid 27224 disappeared
+2021-05-23 13:33:58,146 ERROR   MainThread:33664 [internal.py:wandb_internal():143] Internal process shutdown.
+2021-05-23 13:33:58,459 INFO    WriterThread:33664 [datastore.py:close():258] close: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\run-uqn6gfk8.wandb
+2021-05-23 13:33:58,706 INFO    SenderThread:33664 [sender.py:finish():925] shutting down sender
+2021-05-23 13:33:58,706 INFO    SenderThread:33664 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-23 13:33:58,706 INFO    HandlerThread:33664 [handler.py:finish():632] shutting down handler
+2021-05-23 13:33:59,667 INFO    SenderThread:33664 [dir_watcher.py:finish():312] scan: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files
+2021-05-23 13:33:59,668 INFO    SenderThread:33664 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\conda-environment.yaml conda-environment.yaml
+2021-05-23 13:33:59,669 INFO    SenderThread:33664 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\config.yaml config.yaml
+2021-05-23 13:33:59,672 INFO    SenderThread:33664 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\output.log output.log
+2021-05-23 13:33:59,679 INFO    SenderThread:33664 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\requirements.txt requirements.txt
+2021-05-23 13:33:59,683 INFO    SenderThread:33664 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\wandb-metadata.json wandb-metadata.json
+2021-05-23 13:33:59,683 INFO    SenderThread:33664 [dir_watcher.py:finish():318] scan save: c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\wandb-summary.json wandb-summary.json
+2021-05-23 13:33:59,687 INFO    SenderThread:33664 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-23 13:33:59,687 INFO    SenderThread:33664 [file_pusher.py:join():181] waiting for file pusher
+2021-05-23 13:34:00,319 INFO    Thread-27 :33664 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\wandb-summary.json
+2021-05-23 13:34:00,339 INFO    Thread-24 :33664 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\conda-environment.yaml
+2021-05-23 13:34:00,366 INFO    Thread-26 :33664 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\requirements.txt
+2021-05-23 13:34:00,376 INFO    Thread-25 :33664 [upload_job.py:push():133] Uploaded file c:\Users\cdami\Documents\Python Scripts\Spatiotemporal-Autoencoder-Anomaly-Detection\wandb\run-20210523_133211-uqn6gfk8\files\config.yaml
+2021-05-23 13:34:00,884 INFO    MainThread:33664 [internal.py:handle_exit():78] Internal process exited
